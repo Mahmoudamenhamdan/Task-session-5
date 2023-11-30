@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.nav {
+    padding: 10px;
+    background-image: url(./images/eid.jpg);
+    width: 100%;
+    height: 90vh;
+    background-size: 100%;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.nav h3 {
+    font-family: 'Anton', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Vina Sans', sans-serif;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+}
+
+.nav li {
+    margin-left: 100px;
+    list-style: none;
+}
+
+.nav a {
+    text-decoration: none;
+    color: bisque;
+}
+
+.nav p {
+    text-align: center;
+    margin-top: 450px;
+    font-size: 50px;
+    color: beige;
+    font-family: initial;
+}
+
+.nav span {
+    color: yellow;
+}
+
+.about {
+    width: 100%;
+}
+
+.about h1 {
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 25px;
+    font-size: 45px;
+    color: yellow;
+}
+
+.about p {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    margin-top: 40px;
+} 
+
+.cards .card1,.card2 {
+    border: 3px solid white;
+    box-shadow: 5px 5px 5px black ;
+    text-align: center;
+    margin: auto;
+    width: 20%;
+    padding: 20px;
+}
+
+.cards .card1 {
+    background-color: rgb(53, 53, 53);
+}
+
+.cards .card2 {
+    background-color: yellow;
+}
+
+.cards i {
+    font-size: 40px;
+    color: azure;
+    padding-bottom: 10px;
+}
+
+.gallery  {
+    text-align: center;
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 40px;
+}
+
+.gallery p {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    color: rgb(240, 156, 0);
+}
+
+.gallery .photos {
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    background-color: rgba(255, 255, 0, 0.445);
+}
+
+.gallery .photos img {
+    width:100%;
+    height: 100%;
+}
+
+.contact{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: url(./images/8.jpg);
+    background-position: center;
+    background-size: 100%;
+}
+
+.contact .contact1 h1 {
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-bottom: 10px;
+}
+
+.contact1 .name {
+    margin-top: 30px;
+    padding-top: 10px;
+    height: 100%;
+    width: 90%;
+    background-color: rgba(2, 156, 15, 0.486);
+    border-bottom: 4px yellow solid;
+}
+
+.contact1 .email {
+    margin-top: 20px;
+    padding-top: 10px;
+    height: 100%;
+    width: 90%;
+    background-color:rgba(2, 156, 15, 0.486);
+    border-bottom: 4px yellow solid;
+}
+
+.contact1 #text {
+    margin-top: 20px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    height: 300px;
+    width: 90%;
+    background-color: rgba(2, 156, 15, 0.486);
+    border-bottom: 6px yellow solid;
+}
+
+.contact1 input[type=submit] {
+    width: 30%;
+    height: 50px;
+    border-radius: 15px;
+    color: yellow;
+    background-color: rgba(2, 51, 156, 0.486);
+    font-size: 30px;
+}
+
+.contact1 {
+    color: aliceblue;
+    padding-top: 10px;
+    margin: auto;
+    width: 70%;
+    height: 50%;
+    border: 4px solid yellow;
+    background-color: rgba(2, 51, 156, 0.486);
+}
+
+input[type=text]::placeholder,input[type=email]::placeholder,textarea {
+    color: yellow;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: rgb(247, 247, 17);
+    padding-top: 60px;
+}
+
+.father {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    padding-bottom: 60px;
+}
+
+.footer .a,
+.b,
+.c {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.footer .a a {
+    text-decoration: none;
+    color: #000;
+}
+
+.icon {
+    display: flex;
+    font-size: 60px;
+    gap: 50px;
+    width: 30%;
+    margin: auto;
+    padding-bottom: 10px;
+}
